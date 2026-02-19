@@ -14,6 +14,9 @@ export function CatalogHighlight() {
         <h2 id="catalogo-destaque" className="mt-4 text-3xl font-semibold leading-tight text-white sm:text-4xl">
           Tudo em um lugar so para voce assistir com praticidade
         </h2>
+        <p className="mt-3 max-w-3xl text-sm text-[#D3E2FF] sm:text-base">
+          Conteudo para todos os perfis: futebol e esportes ao vivo, filmes e series para maratonar, alem de novelas e doramas para curtir no seu ritmo.
+        </p>
 
         <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <article className="rounded-xl border border-white/15 bg-white/5 p-4">
@@ -35,7 +38,12 @@ export function CatalogHighlight() {
         </div>
 
         <div className="mt-6">
-          <CtaButton href={WHATSAPP_LINK} label="Quero acesso agora" eventName="click_cta_primary" />
+          <CtaButton
+            href={WHATSAPP_LINK}
+            label="Quero acesso agora"
+            eventName="click_cta_primary"
+            eventParams={{ origin: "catalog_highlight" }}
+          />
         </div>
       </div>
     </section>

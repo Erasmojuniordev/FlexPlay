@@ -2,7 +2,7 @@ const BENEFITS = [
   "Atendimento focado em resolver rapido",
   "Passo a passo simples para ativacao",
   "Equipe preparada para tirar duvidas",
-  "Interface pensada para uso intuitivo",
+  "Conteudo para futebol, filmes, novelas e doramas",
   "Planos com excelente custo-beneficio",
   "Experiencia estavel para rotina diaria",
 ];

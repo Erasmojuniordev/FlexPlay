@@ -1,3 +1,4 @@
+import { AnalyticsScripts } from "@/components/AnalyticsScripts";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { Manrope } from "next/font/google";
@@ -16,7 +17,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="pt-BR">
-      <body className={manrope.className}>{children}</body>
+      <body className={manrope.className}>
+        {children}
+        <AnalyticsScripts />
+      </body>
     </html>
   );
 }

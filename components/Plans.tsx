@@ -1,7 +1,7 @@
 "use client";
 
+import { CtaButton } from "@/components/CtaButton";
 import { PLANS, WHATSAPP_LINK } from "@/lib/config";
-import { pushDataLayerEvent } from "@/lib/tracking";
 
 export function Plans() {
   return (
@@ -36,13 +36,14 @@ export function Plans() {
               <h3 className="text-xl font-semibold text-white">{plan.name}</h3>
               <p className="mt-2 text-3xl font-bold text-white">{plan.price}</p>
               <p className="mt-3 text-sm text-white/75">{plan.description}</p>
-              <a
+              <CtaButton
                 href={WHATSAPP_LINK}
-                onClick={() => pushDataLayerEvent(plan.trackingEvent)}
-                className="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-[#39FF14] px-5 py-3 text-sm font-semibold text-[#10131A] transition hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#39FF14]"
-              >
-                Quero acesso
-              </a>
+                label="Quero acesso"
+                eventName={plan.trackingEvent}
+                planName={plan.name}
+                eventParams={{ plan_name: plan.name, plan_price: plan.price }}
+                className="mt-6 w-full"
+              />
             </article>
           );
         })}

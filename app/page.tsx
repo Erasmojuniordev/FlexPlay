@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Benefits } from "@/components/Benefits";
+import { AudienceShowcase } from "@/components/AudienceShowcase";
 import { CatalogHighlight } from "@/components/CatalogHighlight";
 import { Comparison } from "@/components/Comparison";
+import { ConversionEvents } from "@/components/ConversionEvents";
 import { Faq } from "@/components/Faq";
 import { FinalCta } from "@/components/FinalCta";
 import { Footer } from "@/components/Footer";
@@ -28,9 +30,11 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-transparent pb-24 text-white antialiased md:pb-0">
+      <ConversionEvents />
       <Header />
       <Hero />
       <CatalogHighlight />
+      <AudienceShowcase />
       <SocialProof />
       <Benefits />
       <HowItWorks />

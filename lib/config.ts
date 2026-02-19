@@ -1,4 +1,4 @@
-export const WHATSAPP_LINK = "https://w.app/flexplay";
+export const WHATSAPP_LINK = "https://api.whatsapp.com/send?phone=5579996845148";
 export const INSTAGRAM_HANDLE = "@flexplay";
 
 export type PlanEvent =

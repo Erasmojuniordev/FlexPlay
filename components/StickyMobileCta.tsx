@@ -17,6 +17,7 @@ export function StickyMobileCta() {
           href={WHATSAPP_LINK}
           label="Ativar agora no WhatsApp"
           eventName="click_cta_primary"
+          eventParams={{ origin: "sticky_mobile" }}
           className="w-full"
         />
       </div>

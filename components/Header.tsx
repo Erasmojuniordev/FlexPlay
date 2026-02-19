@@ -22,7 +22,13 @@ export function Header() {
             FAQ
           </NavScrollLink>
         </nav>
-        <CtaButton href={WHATSAPP_LINK} label="Ativar agora" eventName="click_cta_primary" className="px-4 py-2 text-xs sm:text-sm" />
+        <CtaButton
+          href={WHATSAPP_LINK}
+          label="Ativar agora"
+          eventName="click_cta_primary"
+          eventParams={{ origin: "header" }}
+          className="px-4 py-2 text-xs sm:text-sm"
+        />
       </div>
     </header>
   );

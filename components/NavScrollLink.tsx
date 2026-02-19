@@ -1,6 +1,7 @@
 "use client";
 
 import type { MouseEvent, ReactNode } from "react";
+import { trackEvent } from "@/lib/tracking";
 
 type NavScrollLinkProps = {
   href: string;
@@ -13,6 +14,9 @@ export function NavScrollLink({ href, className, children }: NavScrollLinkProps)
     if (!href.startsWith("#")) return;
 
     event.preventDefault();
+    if (href === "#planos") {
+      trackEvent("click_view_plans", { origin: "navbar" });
+    }
     const target = document.querySelector(href);
     if (!target) return;
 
