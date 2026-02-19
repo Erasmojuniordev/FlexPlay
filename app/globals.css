@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --fp-bg: #0a0c14;
+  --fp-surface: #12172a;
+  --fp-blue: #1b7cff;
+  --fp-cyan: #27c2ff;
+  --fp-purple: #6b2dff;
+  --fp-violet: #3f1bb0;
+  --fp-text: #ffffff;
+  --fp-muted: #c5d0ea;
+  --fp-cta: #39ff14;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(1200px 600px at 10% -10%, rgba(39, 194, 255, 0.2), transparent 55%),
+    radial-gradient(900px 520px at 90% 0%, rgba(107, 45, 255, 0.2), transparent 50%), var(--fp-bg);
+  color: var(--fp-text);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.fp-gradient-text {
+  background: linear-gradient(110deg, var(--fp-cyan), var(--fp-blue) 45%, #61a4ff 75%, #7f5bff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.fp-surface {
+  background: linear-gradient(155deg, rgba(31, 43, 77, 0.7), rgba(14, 18, 30, 0.92));
+  border: 1px solid rgba(140, 176, 255, 0.2);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.fp-hover-lift {
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fp-hover-lift:hover {
+  transform: translateY(-4px);
+  border-color: rgba(66, 145, 255, 0.55);
+  box-shadow: 0 18px 30px rgba(20, 57, 145, 0.28);
+}
+
+.fp-fade-up {
+  animation: fpFadeUp 0.55s ease both;
+}
+
+.fp-fade-up-delay-1 {
+  animation-delay: 0.1s;
+}
+
+.fp-fade-up-delay-2 {
+  animation-delay: 0.2s;
+}
+
+.fp-fade-up-delay-3 {
+  animation-delay: 0.3s;
+}
+
+.fp-glow-blue {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(40px);
+  opacity: 0.35;
+  pointer-events: none;
+  animation: fpFloat 8s ease-in-out infinite;
+}
+
+@keyframes fpFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fpFloat {
+  0%,
+  100% {
+    transform: translateY(0px) translateX(0px);
+  }
+  50% {
+    transform: translateY(-12px) translateX(8px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fp-fade-up,
+  .fp-fade-up-delay-1,
+  .fp-fade-up-delay-2,
+  .fp-fade-up-delay-3,
+  .fp-glow-blue,
+  .fp-hover-lift {
+    animation: none !important;
+    transition: none !important;
+  }
+}
