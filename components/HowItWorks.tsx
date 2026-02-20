@@ -1,15 +1,15 @@
 const STEPS = [
   {
     title: "1. Fale com a FlexPlay",
-    text: "Clique no WhatsApp e informe seu objetivo para receber recomendacao de plano.",
+    text: "Clique no WhatsApp e informe seu objetivo para receber recomendação de plano.",
   },
   {
     title: "2. Escolha o plano ideal",
-    text: "Compare as opcoes com tranquilidade e selecione a que faz sentido para sua rotina.",
+    text: "Compare as opções com tranquilidade e selecione a que faz sentido para sua rotina.",
   },
   {
     title: "3. Ative com apoio",
-    text: "Receba orientacao para iniciar com praticidade e suporte quando necessario.",
+    text: "Receba orientação para iniciar com praticidade e suporte quando necessário.",
   },
 ];
 

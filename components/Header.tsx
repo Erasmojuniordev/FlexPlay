@@ -13,7 +13,7 @@ export function Header() {
         </NavScrollLink>
         <nav aria-label="Navegacao principal" className="hidden gap-6 text-sm text-white/80 md:flex">
           <NavScrollLink href="#beneficios" className="transition hover:text-[#27C2FF]">
-            Beneficios
+            Benefícios
           </NavScrollLink>
           <NavScrollLink href="#planos" className="transition hover:text-[#1B7CFF]">
             Planos

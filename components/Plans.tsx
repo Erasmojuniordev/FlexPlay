@@ -13,7 +13,7 @@ export function Plans() {
         Escolha hoje e ative com acompanhamento da equipe
       </p>
       <p className="mx-auto mt-3 max-w-2xl text-center text-sm text-white/70">
-        Escolha o formato que combina com voce. Todos os planos contam com suporte e acompanhamento.
+        Escolha o formato que combina com você. Todos os planos contam com suporte e acompanhamento.
       </p>
       <div className="mt-8 grid gap-4 lg:grid-cols-3">
         {PLANS.map((plan) => {

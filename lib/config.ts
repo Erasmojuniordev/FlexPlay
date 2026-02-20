@@ -18,22 +18,22 @@ export const PLANS: Plan[] = [
   {
     name: "Mensal",
     price: "R$ 22,90",
-    description: "Ideal para comecar sem compromisso longo.",
-    badge: "Acesso rapido",
+    description: "Ideal para começar sem compromisso longo.",
+    badge: "Acesso rápido",
     trackingEvent: "click_plan_monthly",
   },
   {
     name: "Trimestral",
     price: "R$ 58,90",
-    description: "Mais vendido e melhor custo-beneficio para uso continuo.",
+    description: "Mais vendido e melhor custo-benefício para uso contínuo.",
     badge: "Mais vendido",
     trackingEvent: "click_plan_quarterly",
   },
   {
     name: "Anual",
     price: "R$ 199,90",
-    description: "Maxima economia para quem quer estabilidade.",
-    badge: "Maxima economia",
+    description: "Máxima economia para quem quer estabilidade.",
+    badge: "Máxima economia",
     trackingEvent: "click_plan_yearly",
   },
 ];

@@ -11,7 +11,7 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: "FlexPlay",
-  description: "FlexPlay: experiencia de entretenimento com suporte e praticidade.",
+  description: "FlexPlay: experiência de entretenimento com suporte e praticidade.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {

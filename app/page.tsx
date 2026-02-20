@@ -17,11 +17,11 @@ import { StickyMobileCta } from "@/components/StickyMobileCta";
 export const metadata: Metadata = {
   title: "FlexPlay | Entretenimento sem estresse",
   description:
-    "Landing page oficial da FlexPlay com planos acessiveis, suporte dedicado e experiencia simplificada.",
+    "Landing page oficial da FlexPlay com planos acessíveis, suporte dedicado e experiência simplificada.",
   openGraph: {
     title: "FlexPlay | Entretenimento sem estresse",
     description:
-      "Conheca os planos da FlexPlay e fale com o suporte para ativar com praticidade.",
+      "Conheça os planos da FlexPlay e fale com o suporte para ativar com praticidade.",
     type: "website",
     url: "https://w.app/flexplay",
   },

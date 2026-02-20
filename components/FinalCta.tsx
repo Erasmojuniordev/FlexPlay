@@ -11,7 +11,7 @@ export function FinalCta() {
           Pronto para ativar sua <span className="fp-gradient-text">FlexPlay</span>?
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-white/75">
-          Fale com a equipe agora e receba orientacao para escolher o plano certo com mais tranquilidade.
+          Fale com a equipe agora e receba orientação para escolher o plano certo com mais tranquilidade.
         </p>
         <div className="mt-8">
           <CtaButton href={WHATSAPP_LINK} label="Ativar agora" eventName="click_cta_primary" eventParams={{ origin: "final_cta" }} />

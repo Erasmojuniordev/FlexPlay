@@ -1,15 +1,15 @@
 const FAQ_ITEMS = [
   {
-    question: "Como faco para contratar?",
-    answer: "Basta clicar no botao de WhatsApp, escolher um plano e seguir a orientacao da equipe.",
+    question: "Como faço para contratar?",
+    answer: "Basta clicar no botão de WhatsApp, escolher um plano e seguir a orientação da equipe.",
   },
   {
-    question: "Recebo suporte apos a ativacao?",
-    answer: "Sim. O suporte continua disponivel para ajudar em duvidas e ajustes quando necessario.",
+    question: "Recebo suporte após a ativação?",
+    answer: "Sim. O suporte continua disponível para ajudar em dúvidas e ajustes quando necessário.",
   },
   {
     question: "Posso trocar de plano depois?",
-    answer: "Sim, voce pode conversar com o suporte para avaliar a melhor opcao para o seu momento.",
+    answer: "Sim, você pode conversar com o suporte para avaliar a melhor opção para o seu momento.",
   },
 ];
 
