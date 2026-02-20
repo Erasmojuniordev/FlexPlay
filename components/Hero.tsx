@@ -15,11 +15,11 @@ export function Hero() {
           Streaming simplificado com suporte humano
         </span>
         <h1 className="fp-fade-up fp-fade-up-delay-1 mt-6 text-4xl font-semibold leading-tight text-white sm:text-5xl md:text-6xl">
-          Futebol, filmes, séries, novelas e doramas em uma experiência simples com a{" "}
+          Esportes ao vivo, filmes, séries e mais em uma experiência simples com a{" "}
           <span className="fp-gradient-text">FlexPlay</span>
         </h1>
         <p className="fp-fade-up fp-fade-up-delay-2 mx-auto mt-5 max-w-2xl text-base text-[#C5D0EA] sm:text-lg">
-          Da galera que curte esporte ao vivo até quem ama novelas e dorama: você ativa rápido e conta com suporte humano para não passar estresse.
+          De quem curte futebol até famílias que buscam programação variada: você ativa rápido e conta com suporte humano para não passar estresse.
         </p>
         <ul className="mx-auto mt-8 grid max-w-3xl gap-3 text-left text-sm text-white/85 sm:grid-cols-3">
           <li className="fp-surface fp-hover-lift fp-fade-up rounded-xl p-4">Suporte que responde com agilidade quando você precisa.</li>

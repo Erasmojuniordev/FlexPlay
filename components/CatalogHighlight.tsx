@@ -15,7 +15,7 @@ export function CatalogHighlight() {
           Tudo em um só lugar, para você assistir com praticidade
         </h2>
         <p className="mt-3 max-w-3xl text-sm text-[#D3E2FF] sm:text-base">
-          Conteúdo para todos os perfis: futebol e esportes ao vivo, filmes e séries para maratonar, além de novelas e doramas para curtir no seu ritmo.
+          Conteúdo para todos os perfis: esportes ao vivo, filmes e séries, opções infantis e canais de notícias para o dia a dia.
         </p>
 
         <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">

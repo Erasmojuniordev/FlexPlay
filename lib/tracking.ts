@@ -14,6 +14,7 @@ export type TrackingEvent =
   | "view_page"
   | "scroll_50"
   | "click_whatsapp"
+  | "click_profile_interest"
   | "click_cta_primary"
   | "click_view_plans"
   | "click_plan_monthly"

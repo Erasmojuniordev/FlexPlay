@@ -12,7 +12,7 @@ const REAL_PRINTS = [
     label: "Cliente Larissa",
   },
   {
-    src: "/provas/cliente-rafael.jpg",
+    src: "/provas/cliente-rafael-v2.jpg",
     alt: "Print real de conversa com cliente Rafael no WhatsApp",
     label: "Cliente Rafael",
   },

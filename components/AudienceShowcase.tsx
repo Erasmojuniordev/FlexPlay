@@ -1,6 +1,6 @@
 const PROFILES = [
   {
-    title: "Quem curte futebol",
+    title: "Quem curte esportes ao vivo",
     text: "Acompanhe jogos e campeonatos com facilidade no dia a dia.",
   },
   {
@@ -8,12 +8,12 @@ const PROFILES = [
     text: "Descubra opções para maratonar quando e onde quiser.",
   },
   {
-    title: "Quem não perde novela",
-    text: "Conteúdo organizado para assistir com mais praticidade.",
+    title: "Família com crianças",
+    text: "Encontre conteúdo infantil e opções para assistir em família.",
   },
   {
-    title: "Quem maratona dorama",
-    text: "Explore catálogo variado em uma experiência simples.",
+    title: "Quem acompanha notícias",
+    text: "Tenha acesso rápido a canais de notícias e documentários.",
   },
 ];
 
@@ -24,7 +24,7 @@ export function AudienceShowcase() {
         FlexPlay para toda a casa
       </h2>
       <p className="mx-auto mt-3 max-w-3xl text-center text-sm text-[#C6D4EE] sm:text-base">
-        Do jovem que acompanha esporte ao vivo ao público que prefere novelas e dorama: a navegação é simples para todos os perfis.
+        Do público que acompanha esportes ao vivo até famílias que buscam conteúdo infantil: a navegação é simples para todos os perfis.
       </p>
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {PROFILES.map((profile) => (
